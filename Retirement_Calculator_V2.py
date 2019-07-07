@@ -13,6 +13,7 @@ print("gross_income()")
 
 def BasicRetireCalc():
 ##Basic calculator to determine ones asset count by retirement.
+##based on fixed rate of return and fixed annual contribution
     n = input("How many years from now do you plan to retire: ")
     n = float(n)
     contribution = input("how much do you plan to contribute per year towards retirement?")
@@ -30,7 +31,6 @@ def BasicRetireCalc():
     print(round(assets, 2))
 
 def RetireCalc():
-
 
     print("welcome to Neil's Advanced Retirement Calculator (version 0.12), for all questions asking for a percentage value please input a decimal eg .01 \n")
     n = input("How many years from now do you plan to retire: ")
@@ -84,6 +84,9 @@ def Amortization():##work in progress
     print(monthly_payment)
 
 def gross_income():
+    ##calculates annual income based on hours worked per week and pay per hour.
+    ##assumes california overtime rules and is not applicable to all other states
+    ##This tool is intended for a job seeker who is trying to compare pay rates between a salaried and hourly position
     hpw = input("How many hours per week are you projected to work: ") #hours per week
     pph = input("how much will you make per hour: ") #value of each hour worked
     hpw = int(hpw)
