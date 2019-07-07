@@ -1,4 +1,4 @@
-"""End goal is to create a graph that displays income rate for hourly employee, based on hours worked"""
+"""This tool is for calculating annual income based off of how much one makes per hour. Output is a graph for comparison of how much more one could make by adjusting their hours per week. Calculations assume california rules for overtime and may not be 100% correct in other states."""
 
 import numpy as np
 import matplotlib.mlab as mlab
