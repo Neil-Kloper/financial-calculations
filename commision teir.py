@@ -1,3 +1,5 @@
+"""This is a simple tool for calculating current commision tier and projecting how much one would need to sell to raise their tier. The commision rates are based on the RSR commision rate at Schwan's Home Service"""
+
 
 week_length = 5 #adjust if needed for shorter route weeks
 
